@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Boluwatife Ajose</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="../index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="./contact.html" class="nav__link active">Contact</a>
+            </li>
+            <li class="nav__item">
+              <a href="./registration.html" class="nav__link">Registration</a>
+            </li>
+            <li class="nav__item">
+              <a href="./login.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <div class="nav__toggle-hamburger" id="nav-open">
+            <i class="fa-solid fa-2x fa-bars"></i>
+          </div>
+          <div class="nav__toggle-cancel" id="nav-close">
+            <i class="fa-solid fa-2x fa-burger"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="contact" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="form">
+          <form action="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="Name"
+              placeholder="John Doe"
+              class="input"
+            />
+
+            <label for="email">E-mail Address</label>
+            <input
+              type="email"
+              placeholder="emailaddress@mail.com"
+              name="email"
+              class="input"
+            />
+            <label for="message">Message</label>
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              placeholder="Type in your message here"
+              class="input"
+            ></textarea>
+            <input type="checkbox" name="select" /> Remember me?
+            <br />
+            <br />
+            <input type="submit" value="Submit" class="submit--button" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container bd-grid">
+        <div class="footer__data">
+          <h2 class="footer__title">Boluwatife Ajose</h2>
+          <div class="footer__button">
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>&copy The Boluwatife Ajose 2022 || All Rights Reserved.</small>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
